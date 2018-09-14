@@ -1,0 +1,275 @@
+ /*LAYOUT*/
+ body {
+    background-color: #0374a8; /*348D14 (green)*/
+    margin: 0px;
+    font-family: Verdana, Georgia, serif;
+    font-size: 13px;
+ }
+
+ h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    color: #f6f5ae;
+    padding: 20px, 0px, 0px, 0px;
+    line-height: 20px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    padding-top: 0px;
+    line-height: 0px;
+    color: #f6f5ae;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #f6f5ae;
+    font-size: 30px;
+    padding-left: 20px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 0px;
+    color: #f6f5ae;
+}
+
+ /* SIDEBAR MENU */
+.side_the {
+    height: 100%; /* 100% Full-height */
+    width: 160px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #040404; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px; /* Place content 60px from the top */
+}
+
+.side_the a {
+    padding: 30px 10px 30px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    text-align: center;
+}
+
+.side_the a:hover {
+    color: #f1f1f1;
+    background-color: #0374a8;
+}
+
+
+#main {
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+.name_intro {
+    margin-left: 160px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.profileP {
+    border-radius: 50%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the side_the (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .side_the {padding-top: 15px;}
+    .side_the a {font-size: 18px;}
+}
+
+/*IMAGE OR VIDEO GALLERY FOR BEST PROJECTS*/
+
+
+/* ABOUT ME SECTION */
+.about {
+    margin-left: 160px;
+    padding: 0px 130px 0px 130px;
+}
+
+/*PROJECTS SECTION */
+.projects {
+    margin-left: 160px;
+    padding: 0px 130px 0px 130px;
+}
+
+.projects button {
+    padding: 9px;
+    border: none;
+    background: #37f;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top:45%;
+    cursor: pointer;
+}
+
+.projects img {
+    width: 100%;
+    height: 450px;
+}
+
+/* SLIDESHOW */
+
+#slider {
+    width: 800px;
+    height: 450px;
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid black;
+    box-shadow: 0px 0px 6px 4px #f6f5ae;
+}
+
+.slides_the {
+    width: 100%;
+    height: 500px;
+}
+
+
+.prevSB {
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 1px;
+}
+
+.nextSB {
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 752px;
+}
+
+#cContainer {
+    position: relative;
+}
+
+.caption_the {
+    position: absolute;
+    padding: 14px 5px 14px 5px;
+    color: #f6f5ae;
+    background-color: black;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+/* CLUBS AND ORGANIZATIONS */
+.org {
+    padding: 0px 130px 0px 130px;
+    margin-left: 160px;
+}
+
+.org img {
+    width: 300px;
+    height: 300px;
+}
+
+.org p {
+    font-size: 19px;
+    vertical-align: middle;
+    height: 300px;
+    
+}
+
+#skilldescription {
+    height: auto;
+    text-align: justify;
+}
+
+#robo {
+
+}
+
+#robo img {
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+
+#robo h4 {
+    text-align: right;
+    margin-right: 220px;
+
+}
+
+#makers {
+
+}
+
+#makers img {
+    float: right;
+    padding: 0px 0px 0px 20px;
+}
+
+#makers h4 {
+    margin-left: 180px;
+}
+
+
+/*CONTACT ME SECTION*/
+.contact {
+    margin-left: 160px;
+    padding: 0px 130px 0px 130px;
+    /*background-image: url("/home/uriahnewkirk/Desktop/water/learning/portfolio_web/images/get_connected.jpeg");*/    
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+
+.infoT {
+    font-family: Helvetica, serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+
+/*SOCIAL MEDIA BUTTONS*/
+
+.contact ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin-left: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact li {
+    display: inline;
+    vertical-align: middle;
+}
+
+.contact a {
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+}
+
+.contact a:hover {
+    color: #0374a8;
+    background-color: #a8a8a8;
+}
+
+.sButton {
+    color: black;
+    background-color: white;
+    border: 3px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* FOOTER */
+.feet {
+    text-align:right;
+}
