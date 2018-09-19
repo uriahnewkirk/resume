@@ -28,4 +28,4 @@ function prevImg(){
 }
   // script for auto image slider
 
-  setInterval(nextImage , 4000);
+//  setInterval(nextImage , 4000);
