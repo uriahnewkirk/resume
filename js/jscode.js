@@ -3,6 +3,7 @@ var slider_content = document.getElementById("sContainer");
 var image = ['img/mower2.jpg', 'img/mowercodet1.png', 'img/atfour1.png', 'img/atfourdemo1.png', 'img/mower1.png'];
 var caption = ["Vision System Prototype", "Object Detection Algorithm in action", "Connect Four game title screen", "Connect Four game board with 4 players", "Autonomous Lawnmower Prototype <br> (minus the vision system)"]
 var i = image.length;
+//better defined useing comments
 
 // function for next slide 
 function nextImg(){
