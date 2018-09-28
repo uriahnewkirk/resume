@@ -1,10 +1,10 @@
 var slider_content = document.getElementById("sContainer");
 // container for slideshow
 
-var image = ['img/mower2.jpg', 'img/mowercodet1.png', 'img/funky_main.png', 'img/funky_p.png', 'img/funky_context.png', 'img/atfour1.png', 'img/atfourdemo1.png', 'img/mower1.png'];
+var image = ['img/mower2.jpg', 'img/mowercodet1.png', 'img/funky_main.png', /*'img/funky_p.png',*/ 'img/funky_context.png', 'img/atfour1.png', 'img/atfourdemo1.png', 'img/mower1.png'];
 
 //all images in slideshow stored in array
-var caption = ["Vision System Prototype", "Object Detection Algorithm in action", "Main window of app showing list of<br>songs & song currently playing", "Application Preferences", "'Favorite' & 'Delete Song' options in action", "Connect Four game title screen", "Connect Four game board with 4 players", "Autonomous Lawnmower Prototype <br> (minus the vision system)"]
+var caption = ["Vision System Prototype", "Object Detection Algorithm in action", "Main window of app showing list of<br>songs & song currently playing", /*"Application Preferences",*/ "'Favorite' & 'Delete Song' options in action", "Connect Four game title screen", "Connect Four game board with 4 players", "Autonomous Lawnmower Prototype <br> (minus the vision system)"]
 //all captions for images in slideshow stored in array
 
 var i = image.length;
